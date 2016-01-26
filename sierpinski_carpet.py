@@ -50,11 +50,7 @@ def draw_fractal4(turtle, size):
 		turtle.forward(size * 27)
 		turtle.right(90)
 
-draw_square(alpha, 2)
-#draw_fractal(alpha, 2)
-#draw_fractal2(alpha, 1)
-#draw_fractal3(alpha, 2)
-#draw_fractal4(alpha, 2)
+draw_fractal4(alpha, 2)
 
 alpha.hideturtle()
 window.exitonclick()
