@@ -119,11 +119,13 @@ main_page_content = '''
 
 
 # A single movie entry html template
+# Poster hover-text displays the movie's storyline
+# Headings are title, rating, duration, and release date
 movie_tile_content = '''
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
     <img src="{poster_image_url}" width="220" height="342" title="{storyline}"">
     <h2>{movie_title}</h2>
-    <h5>Rating: {rating} - Duration: {duration} - Released: {release_date}</h5>
+    <h5>Rating: {rating} &middot; Duration: {duration} &middot; Released: {release_date}</h5>
 </div>
 '''
 
