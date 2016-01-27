@@ -61,5 +61,5 @@ porco = media.Movie("Porco Rosso",
     "http://ia.media-imdb.com/images/M/MV5BOTQ5MzI1ODgyNF5BMl5BanBnXkFtZTgwOTUyMDk2MjE@._V1__SX857_SY1027_.jpg",
     "https://youtu.be/awEC-aLDzjs")
 
-movies = [mononoke, howl, castle, nausicaa, cagliostro, porco]
+movies = [mononoke, howl, castle, cagliostro, porco, nausicaa]
 fresh_tomatoes.open_movies_page(movies)
